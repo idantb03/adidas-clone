@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import "react-alice-carousel/lib/alice-carousel.css";
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
