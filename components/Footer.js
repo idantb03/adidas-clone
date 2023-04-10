@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className=" lg:px-60 xl::px-80 bg-stone-800 flex lg:flex-row flex-col text-center lg:justify-between py-3 ">
+        <div className=" lg:px-60 xl::px-80 text-stone-400 bg-stone-800 flex lg:flex-row flex-col text-center lg:justify-between py-3 ">
             <div className="flex flex-row justify-center"><img className="w-4 h-auto mr-1" src="/flags/id.svg" /><button className="text-xs hover:underline"> Indonesia</button></div>
             <div className="flex flex-col lg:flex-row text-xs">
                 <div className="flex flex-row justify-center">
