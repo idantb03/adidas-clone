@@ -20,7 +20,7 @@ const HotProductsCarousel = ({prop}) => {
       >
         {
             prop.map((data, index) => (
-                <div className='px-2'>
+                <div key={index} className='px-2'>
                 <HotProducts img={data.img} title={data.title} description={data.desc} url="" />
                 </div>
             ))

@@ -72,8 +72,8 @@ export default function Home() {
 
         <section className=' bg-gray-200 '>
           <div className='flex flex-col lg:flex-row p-10 lg:px-32'>
-            {description.map((data) => (
-              <div className='text-black p-4 w-full lg:w-1/2'>
+            {description.map((data, index) => (
+              <div key={index} className='text-black p-4 w-full lg:w-1/2'>
                 <h1 className=' font-semibold mb-3 '>{data.title}</h1>
                 <p>{data.description}</p>
               </div>

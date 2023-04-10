@@ -18,7 +18,7 @@ const Men = ({onHover, setHover}) => {
                     <button className="hover:underline text-start font-semibold text-red-500 cursor-pointer">Sale</button>
                     <button className="hover:underline text-start font-semibold cursor-pointer">Last Chance</button>
                     <div className="h-6"></div>
-                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men's</button>
+                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men&apos;s</button>
                 </div>
                 <div className=" w-1/5 border-l py-6 pl-3 flex flex-col text-start">
                     <h1 className="mb-2 font-bold">SHOES</h1>
@@ -26,7 +26,7 @@ const Men = ({onHover, setHover}) => {
                         <p key={index} className="hover:underline text-start cursor-pointer">{data}</p>
                     ))}
                     <div className="h-6"></div>
-                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men's shoes</button>
+                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men&apos;s shoes</button>
                 </div>
                 <div className=" w-1/5 py-6 flex flex-col text-start ">
                     <h1 className="mb-2 font-bold">CLOTHING</h1>
@@ -34,7 +34,7 @@ const Men = ({onHover, setHover}) => {
                         <p key={index} className="hover:underline text-start cursor-pointer">{data}</p>
                     ))}
                     <div className="h-6"></div>
-                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men's clothing</button>
+                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men&apos;s clothing</button>
                 </div>
                 <div className=" w-1/5 py-6 flex flex-col text-start ">
                     <h1 className="mb-2 font-bold">ACCESSORIES</h1>
@@ -42,7 +42,7 @@ const Men = ({onHover, setHover}) => {
                         <p key={index} className="hover:underline text-start cursor-pointer">{data}</p>
                     ))}
                     <div className="h-6"></div>
-                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men's accessories</button>
+                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men&apos;s accessories</button>
                 </div>
                 <div className=" w-1/5 py-6 flex flex-col text-start ">
                     <h1 className="mb-2 font-bold">SPORTS</h1>
@@ -50,7 +50,7 @@ const Men = ({onHover, setHover}) => {
                         <p key={index} className="hover:underline text-start cursor-pointer">{data}</p>
                     ))}
                     <div className="h-6"></div>
-                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men's sports</button>
+                    <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Men&apos;s sports</button>
                 </div>
             </div>
         </div>

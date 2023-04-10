@@ -19,7 +19,7 @@ const BestOfAdidasCarousel = ({prop}) => {
       >
         {
             prop.map((data, index) => (
-                <div className='px-2'>
+                <div key={index} className='px-2'>
                     <BestOfAdidas img={data.img} title={data.title} description={data.desc} price={data.price} url="" />
                 </div>
             ))
