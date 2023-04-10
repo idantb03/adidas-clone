@@ -15,7 +15,7 @@ import HotProductsCarousel from '../components/Carousels/HotProductsCarousel'
 import BestOfAdidasCarousel from '@/components/Carousels/BestOfAdidasCarousel'
 import NavbarMobile from '../components/NavbarMobile'
 import Sidebar from '../components/Sidebar'
-import { description, categories, shoeProductsData, hotproductsData, bestofadidasData } from './data'
+import { description, categories, shoeProductsData, hotproductsData, bestofadidasData } from '../public/data'
 
 
 
