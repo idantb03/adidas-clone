@@ -11,25 +11,25 @@ const Brands = ({onHover, setHover}) => {
         <div className=" w-1/4 flex flex-col p-5 ">
             <img className="mb-2" src="/brands/originals.webp" />
             {originals.map((data, index) => (
-                <button key={index} className="hover:underline text-start cursor-pointer">{data}</button>
+                <button key={index} className="hover:underline text-start cursor-pointer text-sm">{data}</button>
             ))}
         </div>
         <div className=" w-1/4 flex flex-col p-5 ">
             <img className="mb-2" src="/brands/block.jpg" />
             {sports.map((data, index) => (
-                <button key={index} className="hover:underline text-start cursor-pointer">{data}</button>
+                <button key={index} className="hover:underline text-start cursor-pointer text-sm">{data}</button>
             ))}
         </div>
         <div className=" w-1/4 flex flex-col p-5 ">
             <img className="mb-2" src="/brands/adidas_stella.webp" />
             {stella.map((data, index) => (
-                <button key={index} className="hover:underline text-start cursor-pointer">{data}</button>
+                <button key={index} className="hover:underline text-start cursor-pointer text-sm">{data}</button>
             ))}
         </div>
         <div className=" w-1/4 flex flex-col p-5 ">
             <img className="mb-2" src="/brands/plastic.webp" />
             {plastic.map((data, index) => (
-                <button key={index} className="hover:underline text-start cursor-pointer">{data}</button>
+                <button key={index} className="hover:underline text-start cursor-pointer text-sm">{data}</button>
             ))}
         </div>
     </div>

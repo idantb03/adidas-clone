@@ -13,44 +13,44 @@ const Women = ({onHover, setHover}) => {
             <div className=" w-1/5 py-6 flex flex-col text-start ">
                 <h1 className="mb-2 font-bold">FEATURED</h1>
                 {featured.map((data, index) => (
-                    <button key={index} className="hover:underline text-start cursor-pointer">{data}</button>
+                    <button key={index} className="hover:underline text-start cursor-pointer text-sm">{data}</button>
                 ))}
-                <button className="hover:underline text-start font-semibold text-red-500 cursor-pointer">Sale</button>
-                <button className="hover:underline text-start font-semibold cursor-pointer">Last Chance</button>
+                <button className="hover:underline text-start font-semibold text-red-500 cursor-pointer text-sm">Sale</button>
+                <button className="hover:underline text-start font-semibold cursor-pointer text-sm">Last Chance</button>
                 <div className="h-6"></div>
-                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Women&apos;s</button>
+                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 text-sm ">All Women&apos;s</button>
             </div>
             <div className=" w-1/5 border-l py-6 pl-3 flex flex-col text-start">
                 <h1 className="mb-2 font-bold">SHOES</h1>
                 {shoes.map((data, index) => (
-                    <p key={index} className="hover:underline text-start cursor-pointer">{data}</p>
+                    <p key={index} className="hover:underline text-start cursor-pointer text-sm">{data}</p>
                 ))}
                 <div className="h-6"></div>
-                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Women&apos;s shoes</button>
+                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 text-sm ">All Women&apos;s shoes</button>
             </div>
             <div className=" w-1/5 py-6 flex flex-col text-start ">
                 <h1 className="mb-2 font-bold">CLOTHING</h1>
                 {clothing.map((data, index) => (
-                    <p key={index} className="hover:underline text-start cursor-pointer">{data}</p>
+                    <p key={index} className="hover:underline text-start cursor-pointer text-sm">{data}</p>
                 ))}
                 <div className="h-6"></div>
-                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Women&apos;s clothing</button>
+                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 text-sm ">All Women&apos;s clothing</button>
             </div>
             <div className=" w-1/5 py-6 flex flex-col text-start ">
                 <h1 className="mb-2 font-bold">ACCESSORIES</h1>
                 {accessories.map((data, index) => (
-                    <p key={index} className="hover:underline text-start cursor-pointer">{data}</p>
+                    <p key={index} className="hover:underline text-start cursor-pointer text-sm">{data}</p>
                 ))}
                 <div className="h-6"></div>
-                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Women&apos;s accessories</button>
+                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 text-sm ">All Women&apos;s accessories</button>
             </div>
             <div className=" w-1/5 py-6 flex flex-col text-start ">
                 <h1 className="mb-2 font-bold">SPORTS</h1>
                 {sports.map((data, index) => (
-                    <p key={index} className="hover:underline text-start cursor-pointer">{data}</p>
+                    <p key={index} className="hover:underline text-start cursor-pointer text-sm">{data}</p>
                 ))}
                 <div className="h-6"></div>
-                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 ">All Women&apos;s sports</button>
+                <button className=" font-bold text-start cursor-pointer mt-auto bottom-0 text-sm ">All Women&apos;s sports</button>
             </div>
         </div>
         </div>
