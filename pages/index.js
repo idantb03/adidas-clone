@@ -52,14 +52,14 @@ export default function Home() {
         </section>
 
         <section className=' px-6 flex flex-col md:flex-row '>
-          {categories.map((data) => (
-            <Categories img={data.img} text={data.text} />
+          {categories.map((data, index) => (
+            <Categories key={index} img={data.img} text={data.text} />
           ))}
         </section>
 
         <section className=' px-6 flex flex-row flex-wrap '>
-          {shoeProductsData.map((data) => (
-            <div className=' w-full md:w-1/2 lg:w-1/4 py-2 md:p-2'>
+          {shoeProductsData.map((data, index) => (
+            <div key={index} className=' w-full md:w-1/2 lg:w-1/4 py-2 md:p-2'>
               <ShoeProducts img={data.img} text={data.text} />
             </div>
           ))}
