@@ -16,6 +16,7 @@ import BestOfAdidasCarousel from '@/components/Carousels/BestOfAdidasCarousel'
 import NavbarMobile from '../components/NavbarMobile'
 import Sidebar from '../components/Sidebar'
 import { description, categories, shoeProductsData, hotproductsData, bestofadidasData } from '../public/data'
+import ChatSupport from '../components/ChatSupport'
 
 
 
@@ -39,6 +40,8 @@ export default function Home() {
         <Navbar />
         <NavbarMobile isShow={isShow} setShow={setShow} />
         <Sidebar isShow={isShow} setShow={setShow} />
+
+        <ChatSupport />
 
         <div className='h-10'></div>
         
